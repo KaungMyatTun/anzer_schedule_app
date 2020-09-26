@@ -5,14 +5,12 @@ import 'package:anzer_schedule_app/bloc/home_page/home_page_bloc.dart';
 import 'package:anzer_schedule_app/bloc/main_bloc/schedule_main_bloc.dart';
 import 'package:anzer_schedule_app/util/HexColor.dart';
 import 'package:anzer_schedule_app/util/constants.dart';
-import 'package:anzer_schedule_app/widget/rounded_button.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kf_drawer/kf_drawer.dart';
-import 'package:retrofit/dio.dart';
 
 class HomePage extends KFDrawerContent {
   // HomePage({Key key});

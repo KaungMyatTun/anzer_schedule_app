@@ -28,7 +28,7 @@ class _CPIReqeuestPageState extends State<CPIReqeuestPage> {
   TextEditingController _cpiController;
   // app bar
   AppBar appBar;
-  // progress dialog
+  // progress dialog 
   ProgressDialog pr;
   // start timer
   int _start = 60;
